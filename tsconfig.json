@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@app/*": ["./src/*"],
+      "@test/*": ["./test/*"]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "package.json",
+    "tsconfig.json",
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+  ],
+}
